@@ -42,8 +42,7 @@ print("\n===== Logistic Regression =====")
 # são o resumo final do classification_report — 
 # ele mostra a média das métricas de desempenho 
 # (precisão, recall e F1-score) de todas as classes do seu modelo.
-print(classification_report(y_test, y_pred_lr)
-      )
+print(classification_report(y_test, y_pred_lr))
 print("Acurácia:", accuracy_score(y_test, y_pred_lr))
 
 # Exemplo de uso: prever um novo e-mail

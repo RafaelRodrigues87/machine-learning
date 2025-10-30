@@ -1,0 +1,3 @@
+Parâmetro	Significado
+x	As features (as colunas com características do e-mail)
+y	Os rótulos (a coluna veracidade, com 0 ou 1)
