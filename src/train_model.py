@@ -7,7 +7,7 @@ from sklearn.metrics import classification_report, confusion_matrix, accuracy_sc
 df = pd.read_csv("emails_dataset_5k.csv")
 
 
-#separa features e rotulo
+#separa features e rotulo.
 x = df[[
     "email_length", "local_length", "has_number", "num_dots",
     "num_unders", "num_hyph", "unique_ratio", "alpha_ratio",
@@ -47,6 +47,7 @@ print(classification_report(y_test, y_pred_lr)
 print("Acurácia:", accuracy_score(y_test, y_pred_lr))
 
 # Exemplo de uso: prever um novo e-mail
+
 exemplo = {
     "email_length": 20,
     "local_length": 10,
